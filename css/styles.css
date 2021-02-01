@@ -14,10 +14,11 @@
 html {
   background: var(--secondary);
   color: var(--primary);
+  height: 100%;
 }
 
 body{
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   overflow-x: hidden;
   background-image: url('/Images/TeamLogo.jpg');
@@ -27,7 +28,7 @@ main{
   width: 60%;
   height: 60%;
   display: block;
-  margin: 10rem auto;
+  margin: auto;
 }
 
 h1{
@@ -43,7 +44,7 @@ h2{
 }
 
 img{
-  width: 70%;
+  width: 80%;
 }
 
 section {
@@ -59,6 +60,18 @@ a{
   color: #FFF;
   text-decoration: none;
 }
+
+.secret{
+  margin-top: 7rem;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.secret:hover{
+  opacity: 1;
+}
+
+
 
 .rainbow:hover {
   cursor: grab;
